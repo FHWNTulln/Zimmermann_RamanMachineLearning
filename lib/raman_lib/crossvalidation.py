@@ -19,6 +19,8 @@ from .misc import mode
 
 cv_logger = logging.getLogger(__name__)
 
+# edit scoring f1_micro/f1_macro
+
 class CrossValidator(BaseEstimator, MetaEstimatorMixin):
     def __init__(
         self,
